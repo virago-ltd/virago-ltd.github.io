@@ -1,0 +1,156 @@
+/*fix the view*/
+@media screen and (min-width: 1100px) {
+  #main-con {
+    width: 1000px;
+  }
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+button:hover {
+    right: 0;
+    background: var(--pink);
+}
+
+.modal-content {
+  background-color: #2d2d2d;
+}
+
+/*header title containing the logo and name*/
+#title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20%;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #7d97ad;
+}
+
+#logo {
+  width: 20%;
+  max-width: 20%;
+}
+
+#head {
+  width: 80%;
+  height: 20%;
+  max-width: 80%;
+}
+
+/*unicode character: star*/
+.uni {
+  font-size: 25px;
+}
+
+/*central image*/
+#mid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#work {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+/*styles for projects (featured work)*/
+.size {
+  font-size: 27px;
+}
+
+#color {
+  color: #b3b3b3;
+}
+
+.view {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.route {
+  font-size: 12px;
+  font-weight: lighter;
+  color: black;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 365px) {
+  #head-name {
+    font-size: 20px;
+  }
+
+  #uni {
+    font-size: 10px;
+  }
+
+  #pos-name {
+    font-size: 8px;
+  }
+
+  .level {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 8px;
+  }
+
+}
+@media screen and (min-width: 366px) and (max-width: 579px) {
+  #head-name {
+    font-size: 29px;
+  }
+
+  #uni {
+    font-size: 13px;
+  }
+
+  #pos-name {
+    font-size: 10px;
+  }
+
+  .level {
+    font-size: 22px;
+  }
+
+  .link {
+    font-size: 10px;
+  }
+
+}
+@media screen and (min-width: 580px) and (max-width: 750px) {
+  #head-name {
+    font-size: 35px;
+  }
+
+  #uni {
+    font-size: 18px;
+  }
+
+  #pos-name {
+    font-size: 12px;
+  }
+
+  .level {
+    font-size: 27px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+}
+@media screen and (max-width: 750px) {
+  .fence {
+    margin-bottom: 10px;
+  }
+
+}
